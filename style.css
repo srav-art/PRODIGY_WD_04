@@ -1,0 +1,157 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #E3F2FD; /* Light pastel blue background */
+}
+
+/* Header */
+header {
+    background: #90CAF9; /* Pastel blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styling */
+.section {
+    padding: 4rem 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Home Section */
+.home h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #1976D2; /* Darker pastel blue for heading */
+}
+
+.home p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #42A5F5; /* Medium pastel blue */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background: #1976D2; /* Darker pastel blue on hover */
+}
+
+/* About Section */
+.about p {
+    max-width: 600px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.about ul {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skills-list li {
+    background: #BBDEFB; /* Lighter pastel blue */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #1976D2;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.project-item {
+    padding: 1.5rem;
+    background: #E1F5FE; /* Very light pastel blue */
+    border-radius: 8px;
+    color: #333;
+}
+
+/* Contact Section */
+.contact form {
+    max-width: 600px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #90CAF9;
+    border-radius: 5px;
+    background-color: #E3F2FD;
+}
+
+button[type="submit"] {
+    background-color: #42A5F5; /* Medium pastel blue */
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1976D2; /* Darker pastel blue on hover */
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    text-align: center;
+    background: #90CAF9; /* Pastel blue */
+    color: #fff;
+    font-size: 0.9rem;
+}
